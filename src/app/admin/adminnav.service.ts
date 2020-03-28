@@ -16,5 +16,4 @@ export class AdminnavService {
   show() { this.avisible = true;}
   
 
-  toggle() { this.avisible = !this.avisible; }
 }
