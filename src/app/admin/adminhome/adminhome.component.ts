@@ -18,16 +18,16 @@ export class AdminhomeComponent implements OnInit {
     this.nav.hide();
    
   }
-  addcustomers(){
-    this.router.navigate(['/addcustomer']);
-  }
-  adminhome(){
-    this.router.navigate(['/adminhome']);
-  }
+  // addcustomers(){
+  //   this.router.navigate(['/addcustomer']);
+  // }
+  // adminhome(){
+  //   this.router.navigate(['/adminhome']);
+  // }
   home(){
     this.router.navigate(['/adminlogin']);
   }
-  mycustomers(){
-    this.router.navigate(['/mycustomers']);
-  }
+//   mycustomers(){
+//     this.router.navigate(['/mycustomers']);
+//   }
 }

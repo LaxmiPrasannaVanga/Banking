@@ -17,15 +17,15 @@ export class AddcustomersComponent implements OnInit {
     this.adminnav.show();
     
   }
-  adminhome(){
-    this.router.navigate(['/adminhome']);
-  }
-  addcustomers(){
-    this.router.navigate(['/addcustomer']);
-  }
-  mycustomers(){
-    this.router.navigate(['/mycustomers']);
-  }
+  // adminhome(){
+  //   this.router.navigate(['/adminhome']);
+  // }
+  // addcustomers(){
+  //   this.router.navigate(['/addcustomer']);
+  // }
+  // mycustomers(){
+  //   this.router.navigate(['/mycustomers']);
+  // }
   home(){
     this.router.navigate(['/adminlogin']);
   }

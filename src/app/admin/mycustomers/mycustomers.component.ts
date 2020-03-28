@@ -19,18 +19,18 @@ export class MycustomersComponent implements OnInit {
     this.adminnav.show();
  
   }
-  addcustomers(){
-    this.router.navigate(['/addcustomer']);
-  }
-  adminhome(){
-    this.router.navigate(['/adminhome']);
-  }
+  // addcustomers(){
+  //   this.router.navigate(['/addcustomer']);
+  // }
+  // adminhome(){
+  //   this.router.navigate(['/adminhome']);
+  // }
   home(){
     this.router.navigate(['/adminlogin']);
   }
-  mycustomers(){
-    this.router.navigate(['/mycustomers']);
-  }
+  // mycustomers(){
+  //   this.router.navigate(['/mycustomers']);
+  // }
   
 
 }
