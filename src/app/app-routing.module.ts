@@ -9,6 +9,7 @@ import { UserLoginComponent } from './user/user-login/user-login.component';
 import { MycustomersComponent } from './admin/mycustomers/mycustomers.component';
 import { UserheaderComponent } from './user/userheader/userheader.component';
 import { AtmsimulatorComponent } from './user/atmsimulator/atmsimulator.component';
+import { PostnewsComponent } from './admin/postnews/postnews.component';
 
 
 const routes: Routes = [
@@ -22,7 +23,8 @@ const routes: Routes = [
   {path:'userlogin',component:UserLoginComponent},
   {path:'userheader',component:UserheaderComponent},
   {path:'atmsimulator',component:AtmsimulatorComponent},
-  {path:"mycustomers",component:MycustomersComponent}
+  {path:"mycustomers",component:MycustomersComponent},
+  {path:"postnews",component:PostnewsComponent}
 ];
 
 @NgModule({
