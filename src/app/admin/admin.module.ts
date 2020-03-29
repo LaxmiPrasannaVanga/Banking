@@ -8,6 +8,8 @@ import { HeaderComponent } from '../header/header.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MycustomersComponent } from './mycustomers/mycustomers.component';
 import { AdminComponent } from './admin/admin.component';
+import { EditandupdateComponent } from './admin/editandupdate/editandupdate.component';
+import { PostnewsComponent } from './postnews/postnews.component';
 
 
 const routes: Routes = [
@@ -19,7 +21,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [AdminhomeComponent, AdminloginComponent, AddcustomersComponent, MycustomersComponent, AdminComponent],
+  declarations: [AdminhomeComponent, AdminloginComponent, AddcustomersComponent, MycustomersComponent, AdminComponent, EditandupdateComponent, PostnewsComponent],
   imports: [RouterModule.forChild(routes),
   
     CommonModule,
