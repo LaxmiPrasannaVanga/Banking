@@ -3,7 +3,7 @@
     padding: 0;
     width: 300px;
     background-color:darkgray;
-    position: fixed;
+    position: absolute;
     height: 100%;
     overflow: auto;
   }
@@ -30,7 +30,7 @@
   
   /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
   div.content {
-      margin-top: 100px;
+      margin-top: 0px;
     margin-left: 300px;
     padding: 5px 16px;
     height: 300px;

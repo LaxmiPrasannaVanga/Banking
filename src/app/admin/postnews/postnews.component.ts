@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { AdminnavService } from '../adminnav.service';
+import { NavbarService } from 'src/app/navbar.service';
 
 @Component({
   selector: 'app-postnews',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostnewsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private nav:NavbarService,private adminnav:AdminnavService) { }
 
   ngOnInit() {
+    this.adminnav.show();
+    this.nav.hide();
   }
+
 
 }
