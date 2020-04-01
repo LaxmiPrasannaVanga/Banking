@@ -4,7 +4,7 @@
     <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-                <a class="nav-link" routerLink="adminlogin" style="color: white;"><h4><i class="fa fa-sign-out">Logout </i></h4></a>
+                <a class="nav-link" routerLink="/adminlogin"  style="color: white;"><h4><i class="fa fa-sign-out">Logout </i></h4></a>
             </li>
             
         </ul>
@@ -16,7 +16,7 @@
         <a  routerLink='/adminhome'>Home</a>
         <a routerLink='/mycustomers'>My Customers</a>
         <a routerLink='/addcustomers'>Add Customer</a>
-        <a href="#about">Manage Customers</a>
+        <a routerLink='/editandupdate'>Manage Customers</a>
         <a href="#about">Customer Griveances</a>
         <a href="#about">Website Management</a>
         <a routerLink='/postnews'>Post News</a>
@@ -26,10 +26,12 @@
    <hr >
    <div style="margin:50px;">
     <form>
+        <div class="form-row">
             <div class="form-group col-sm-4">
                 <label for=""><b>Customer ID:</b></label>
                 <input type="text" class="form-control" id="">
             </div>
+        </div>
             <div class="form-row">
 
             <div class="form-group col-sm-4">
@@ -41,21 +43,27 @@
                 <input type="text" class="form-control" id="">
             </div>
             </div>
+            <div class="form-row">
             <div class="form-group col-sm-4">
                 <label for=""><b>Balance(INR):</b></label>
                 <input type="text" class="form-control" id="">
             </div>
-            <div class="form-group col-sm-4">
-                <label for=""><b>Gender:</b></label>
-                <div class="form-check form-check-inline">
-                    <label class="form-check-label">
-                        <input class="form-check-input" type="radio" name="" id="" value="checkedValue"> Female
-                    </label>
-                    <label class="form-check-label">
-                        <input class="form-check-input" type="radio" name="" id="" value="checkedValue"> Male
-                    </label>
+            </div>
+            <div class="form-group">
+                <label style="margin-right: 30px;"><b>Gender:</b></label>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="" style="margin-right: 30px;"><b>Male</b></label>
                 </div>
-          </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="" style="margin-right: 30px;"><b>Female</b></label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for=""><b>Other</b></label>
+                </div>
+            </div>
           <div class="form-group col-sm-4">
             <label for=""><b>Date of Birth:</b></label>
             <input type="text" class="form-control" id="">
@@ -104,7 +112,7 @@
     </div>
     <div class="form-group col-sm-4">
 
-    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-primary">update</button>
 
     </div>
 </div>
