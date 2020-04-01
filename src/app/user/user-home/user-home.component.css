@@ -3,7 +3,7 @@
     padding: 0;
     width: 300px;
     background-color:darkgray;
-    position: fixed;
+    position: absolute;
     height: 100%;
     overflow: auto;
   }

@@ -10,8 +10,8 @@ import { UserModule } from './user/user.module';
 import { UserHomeComponent } from './user/user-home/user-home.component';
 import { UserLoginComponent } from './user/user-login/user-login.component';
 import { AtmsimulatorComponent } from './user/atmsimulator/atmsimulator.component';
-import { UserheaderComponent } from './user/userheader/userheader.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +19,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     UserHomeComponent,
     UserLoginComponent,
     AtmsimulatorComponent,
-    UserheaderComponent
    
    
   ],

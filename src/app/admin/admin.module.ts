@@ -4,10 +4,9 @@ import { AdminhomeComponent } from './adminhome/adminhome.component';
 import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { AddcustomersComponent } from './addcustomers/addcustomers.component';
 import { Routes,RouterModule } from '@angular/router';
-import { HeaderComponent } from '../header/header.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MycustomersComponent } from './mycustomers/mycustomers.component';
-import { AdminComponent } from './admin/admin.component';
+ 
 
 import { PostnewsComponent } from './postnews/postnews.component';
 import { EditandupdateComponent } from './editandupdate/editandupdate.component';
@@ -22,7 +21,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [AdminhomeComponent, AdminloginComponent, AddcustomersComponent, MycustomersComponent, AdminComponent, EditandupdateComponent, PostnewsComponent],
+  declarations: [AdminhomeComponent, AdminloginComponent, AddcustomersComponent, MycustomersComponent,  EditandupdateComponent, PostnewsComponent],
   imports: [RouterModule.forChild(routes),
   
     CommonModule,

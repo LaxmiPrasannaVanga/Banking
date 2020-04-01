@@ -1,1 +1,63 @@
-<p>atmsimulator works!</p>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<nav class="navbar navbar-expand-sm navbar-light bg-dark">
+    <p style="color: white; margin-right: 950px;">Welcome gopi!</p>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#" style="color: white;"><h4><i class="fa fa-sign-out">Logout </i></h4></a>
+            </li>
+            
+        </ul>
+        
+    </div>
+</nav>
+<div class="sidebar">
+    <a class="active" href="#home">Home</a>
+    <a routerLink="/mytransaction">My Transactions</a>
+    <a href="#contact">Send/Receive</a>
+    <a href="#about">Transfer Funds</a>
+    <a routerLink="/atmsimulator">ATM Simulator</a>
+    <a href="#about">Contact Us</a>
+    <a href="#about">Submit Griveance</a>
+  </div>
+<div class="content">
+    <h2 style="text-align: center;margin-top: auto; ">ATM Simulator</h2>
+    <hr>
+    <div style="margin:20px;">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-sm-4">
+                    <label for=""><b>Enter Amount(in INR)</b></label>
+                    <input type="text" class="form-control" id="">
+                </div>
+            </div>
+            <div class="form-group">
+                <label style="margin-right: 30px;"><b>Type:</b></label>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="" style="margin-right: 30px;"><b>Debit</b></label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="" style="margin-right: 30px;"><b>Credit</b></label>
+                </div>
+            </div>
+            
+            <div class="form-group col-sm-4">
+                <label for=""><b>PIN(4 digit):</b></label>
+                <input type="text" class="form-control" id="">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-sm-4">
+
+                    <button type="button" class="btn btn-success">SUBMIT</button>
+                </div>
+                <div class="form-group col-sm-4">
+
+                    <button type="button" class="btn btn-warning">RESET</button>
+
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

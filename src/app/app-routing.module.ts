@@ -7,9 +7,9 @@ import { AdminloginComponent } from './admin/adminlogin/adminlogin.component';
 import { UserHomeComponent } from './user/user-home/user-home.component';
 import { UserLoginComponent } from './user/user-login/user-login.component';
 import { MycustomersComponent } from './admin/mycustomers/mycustomers.component';
-import { UserheaderComponent } from './user/userheader/userheader.component';
 import { AtmsimulatorComponent } from './user/atmsimulator/atmsimulator.component';
 import { PostnewsComponent } from './admin/postnews/postnews.component';
+import { TransferfundsComponent } from './user/transferfunds/transferfunds.component';
 
 
 const routes: Routes = [
@@ -21,8 +21,8 @@ const routes: Routes = [
   //{path:"addcustomers",component:AddcustomersComponent,children:[{path:"adminlogin",component:AdminloginComponent}]},
   {path:'userhome',component:UserHomeComponent},
   {path:'userlogin',component:UserLoginComponent},
-  {path:'userheader',component:UserheaderComponent},
   {path:'atmsimulator',component:AtmsimulatorComponent},
+  {path:'transferfunds',component:TransferfundsComponent},
   {path:"mycustomers",component:MycustomersComponent},
   {path:"postnews",component:PostnewsComponent}
 ];

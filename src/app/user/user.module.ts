@@ -4,13 +4,21 @@ import { UserLoginComponent } from './user-login/user-login.component';
 import { UserHomeComponent } from './user-home/user-home.component';
 import { AtmsimulatorComponent } from './atmsimulator/atmsimulator.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { UserheaderComponent } from './userheader/userheader.component';
+import { Routes, RouterModule } from '@angular/router';
+import { TransferfundsComponent } from './transferfunds/transferfunds.component';
 
 
 
+
+
+const routes:Routes=[
+  {path:'userhome',component:UserHomeComponent},
+  {path:'userlogin',component:UserLoginComponent},
+  {path:'atmsimulator',component:AtmsimulatorComponent},
+  ]
 @NgModule({
-  declarations: [],
-  imports: [
+  declarations: [TransferfundsComponent],
+  imports: [RouterModule.forChild(routes),
     CommonModule,
     FormsModule,
     ReactiveFormsModule
