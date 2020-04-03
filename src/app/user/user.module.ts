@@ -6,6 +6,7 @@ import { AtmsimulatorComponent } from './atmsimulator/atmsimulator.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 import { TransferfundsComponent } from './transferfunds/transferfunds.component';
+import { MyTransactionComponent } from './my-transaction/my-transaction.component';
 
 
 
@@ -17,7 +18,7 @@ const routes:Routes=[
   {path:'atmsimulator',component:AtmsimulatorComponent},
   ]
 @NgModule({
-  declarations: [TransferfundsComponent],
+  declarations: [TransferfundsComponent, MyTransactionComponent],
   imports: [RouterModule.forChild(routes),
     CommonModule,
     FormsModule,
