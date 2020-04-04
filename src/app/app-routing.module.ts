@@ -13,6 +13,7 @@ import { TransferfundsComponent } from './user/transferfunds/transferfunds.compo
 import { MyTransactionComponent } from './user/my-transaction/my-transaction.component';
 import { AddBeneficiaryComponent } from './user/add-beneficiary/add-beneficiary.component';
 import { AddDetailsComponent } from './user/add-details/add-details.component';
+import { SuccessfullComponent } from './user/successfull/successfull.component';
 
 
 const routes: Routes = [
@@ -30,7 +31,8 @@ const routes: Routes = [
   {path:"postnews",component:PostnewsComponent},
   {path:"mytransaction",component:MyTransactionComponent},
   {path:"addbeneficiary",component:AddBeneficiaryComponent}, 
-  {path:"adddetails",component:AddDetailsComponent}
+  {path:"adddetails",component:AddDetailsComponent},
+  {path:"successfull",component:SuccessfullComponent}
 ];
 
 @NgModule({
