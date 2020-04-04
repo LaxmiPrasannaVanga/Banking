@@ -9,7 +9,7 @@ import { TransferfundsComponent } from './transferfunds/transferfunds.component'
 import { MyTransactionComponent } from './my-transaction/my-transaction.component';
 import { AddBeneficiaryComponent } from './add-beneficiary/add-beneficiary.component';
 import { AddDetailsComponent } from './add-details/add-details.component';
-import { NewBalanceComponent } from './new-balance/new-balance.component';
+
 import { SuccessfullComponent } from './successfull/successfull.component';
 
 
@@ -20,9 +20,10 @@ const routes:Routes=[
   {path:'userhome',component:UserHomeComponent},
   {path:'userlogin',component:UserLoginComponent},
   {path:'atmsimulator',component:AtmsimulatorComponent},
+  {path:'transferfunds',component:TransferfundsComponent}
   ]
 @NgModule({
-  declarations: [TransferfundsComponent, MyTransactionComponent, AddBeneficiaryComponent, AddDetailsComponent, NewBalanceComponent, SuccessfullComponent],
+  declarations: [TransferfundsComponent, MyTransactionComponent, AddBeneficiaryComponent, AddDetailsComponent,  SuccessfullComponent],
   imports: [RouterModule.forChild(routes),
     CommonModule,
     FormsModule,
