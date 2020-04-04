@@ -11,6 +11,8 @@ import { AtmsimulatorComponent } from './user/atmsimulator/atmsimulator.componen
 import { PostnewsComponent } from './admin/postnews/postnews.component';
 import { TransferfundsComponent } from './user/transferfunds/transferfunds.component';
 import { MyTransactionComponent } from './user/my-transaction/my-transaction.component';
+import { AddBeneficiaryComponent } from './user/add-beneficiary/add-beneficiary.component';
+import { AddDetailsComponent } from './user/add-details/add-details.component';
 
 
 const routes: Routes = [
@@ -26,7 +28,9 @@ const routes: Routes = [
   {path:'transferfunds',component:TransferfundsComponent},
   {path:"mycustomers",component:MycustomersComponent},
   {path:"postnews",component:PostnewsComponent},
-  {path:"mytransaction",component:MyTransactionComponent}
+  {path:"mytransaction",component:MyTransactionComponent},
+  {path:"addbeneficiary",component:AddBeneficiaryComponent}, 
+  {path:"adddetails",component:AddDetailsComponent}
 ];
 
 @NgModule({

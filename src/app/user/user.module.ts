@@ -7,6 +7,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 import { TransferfundsComponent } from './transferfunds/transferfunds.component';
 import { MyTransactionComponent } from './my-transaction/my-transaction.component';
+import { AddBeneficiaryComponent } from './add-beneficiary/add-beneficiary.component';
+import { AddDetailsComponent } from './add-details/add-details.component';
 
 
 
@@ -18,7 +20,7 @@ const routes:Routes=[
   {path:'atmsimulator',component:AtmsimulatorComponent},
   ]
 @NgModule({
-  declarations: [TransferfundsComponent, MyTransactionComponent],
+  declarations: [TransferfundsComponent, MyTransactionComponent, AddBeneficiaryComponent, AddDetailsComponent],
   imports: [RouterModule.forChild(routes),
     CommonModule,
     FormsModule,

@@ -1,0 +1,58 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-dark">
+    <p style="color: white; margin-right: 950px;">Welcome gopi!</p>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" routerLink="/userlogin" style="color: white;">
+                    <h4><i class="fa fa-sign-out">Logout </i></h4>
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+</nav>
+<div class="sidebar">
+    <a class="active" roterLink="/userhome">Home</a>
+    <a routerLink="/mytransaction">My Transactions</a>
+    <a href="#contact">Send/Receive</a>
+    <a href="#about">Transfer Funds</a>
+    <a routerLink="/atmsimulator">ATM Simulator</a>
+    <a href="#about">Contact Us</a>
+    <a href="#about">Submit Griveance</a>
+</div>
+<div style="margin-left: 300px;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#">Add</a>
+            </li>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search Beneficiaries" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                By:Name
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Number</a>
+                <a class="dropdown-item" href="#">Age</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            
+          </ul>
+          
+        </div>
+      </nav>
+      <button style="margin-left: 400px;"><a routerLink="/adddetails">Send To,Add/Delete Beneficiaries</a></button>
+      <h3 style="margin-left: 350px;">No Beneficiaries Found :) </h3>
+      
+</div>
+

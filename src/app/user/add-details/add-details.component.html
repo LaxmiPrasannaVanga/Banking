@@ -1,0 +1,79 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-dark">
+    <p style="color: white; margin-right: 950px;">Welcome gopi!</p>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" routerLink="/userlogin" style="color: white;">
+                    <h4><i class="fa fa-sign-out">Logout </i></h4>
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+</nav>
+<div class="sidebar">
+    <a class="active" roterLink="/userhome">Home</a>
+    <a routerLink="/mytransaction">My Transactions</a>
+    <a href="#contact">Send/Receive</a>
+    <a href="#about">Transfer Funds</a>
+    <a routerLink="/atmsimulator">ATM Simulator</a>
+    <a href="#about">Contact Us</a>
+    <a href="#about">Submit Griveance</a>
+</div>
+<div style="margin-left: 300px;">
+    <h1>Please fill in beneficiary  details</h1>
+    <hr style="border: 1px solid black">
+    <form class="card col-md-10 " style="border-color: rgba(0,0,0,0);">
+        
+        <div class="form-row ">
+          <div class="form-group col-md-6">
+            <label for="inputtext">First Name</label>
+            <input type="text" class="form-control" id="inputtext">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputtext2">Last Name</label>
+            <input type="text" class="form-control" id="inputtext2">
+          </div>
+        </div>
+        <div class="form-row ">
+            <div class="form-group col-md-6">
+              <label for="inputtext">Account Number</label>
+              <input type="text" class="form-control" id="inputtext">
+            </div>
+            
+          </div>
+       
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputemail">Email-Id</label>
+            <input type="email" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputState">Phone Number</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="form-row">
+        <div class="form-group col-md-2">
+          <a routerLink="/addBeneficiary"><button type="submit" class="btn btn-primary">Go Back</button></a>
+      </div>
+      <div class="form-group col-md-2">
+        <button type="submit" class="btn btn-primary" style="background-color: green;">Submit</button>
+      </div>
+      <div class="form-group col-md-2">
+        <button type="reset" class="btn btn-primary" style="background-color: red;">Reset</button>
+      </div>
+    </div>
+      </form>
+  
+</div>
